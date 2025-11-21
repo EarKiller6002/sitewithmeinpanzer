@@ -14,7 +14,7 @@ h1{
     position: absolute;
     bottom: 0px;
     left: -350px;
-    animation: TankMove 60s linear 1 alternate 1s forwards;
+    animation: TankMove 240s linear 1 alternate 1s forwards;
 }
 
 .tank_body{
@@ -177,6 +177,7 @@ h1{
 
 @keyframes TankMove{
     to{
-        transform: translateX(2500px);
+        transform: translateX(10000px);
     }
+
 }
